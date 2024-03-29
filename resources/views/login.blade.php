@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <link rel="stylesheet" href="/public/css/hehe.css">
-    
+    <link rel="stylesheet" href="/public/css/login.css">
 </head>
 <body>
     <div class="login-container">
-        <form class="login-form" id="loginForm" action="#" method="post">
+        <form class="login-form" id="loginForm" action="#" method="post" onsubmit="return login()">
             <h2>Login</h2>
             <div class="input-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
             </div>
             <div class="input-group">
                 <label for="password">Password:</label>
@@ -25,8 +24,6 @@
             <p>Belum punya akun? <a href="#">Daftar</a></p>
         </div>
     </div>
-    <script src="/public.js/huhu.js"></script>
-
-   
+    <script src="/public/js/login.js"></script>
 </body>
 </html>
